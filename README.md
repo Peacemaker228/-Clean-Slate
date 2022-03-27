@@ -1,2 +1,2 @@
-# -Clean-Slate
+# Clean-Slate
 Salam Brothers
