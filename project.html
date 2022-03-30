@@ -3,8 +3,123 @@
 <head>
     <meta charset="utf-8" />
     <title>Landing</title>
+    <link rel="stylesheet" href="project.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-oiuoiuoi
+    <div class="app">
+        <div class="all">
+            <div class="startblock">
+                <header class="head">
+                    <img src="herb.png" class="logo" alt="head_logo"/>
+                    <div class="menu">
+                        <div>О банкротстве</div>
+                        <div>Услуга</div>
+                        <div>Контакты</div>
+                        <div>+7(495)215-17-77</div>
+                    </div>
+                </header>
+                <div class="consultation">
+                    <h1>Попрощайтесь с долгами</h1>
+                    <div class="cons">Бесплатная консультация от ведущих юристов</div>
+                    <button type="button" class="butt">СПИСАТЬ ДОЛГИ</button>
+                    <div class="headfooter">За 2019г: 375 консультаций 168 довольных клиентов списали 889 млн.рублей</div>
+                </div>
+            </div>
+            <main class="main">    
+                <div class="situat">
+                    <h2>Ситуации, когда мы поможем</h2>
+                    <img src="backgr.png"/>
+                    <div class="liwomen">
+                        <ul class="links">
+                            <li class="linksmenu">просрочки по кредитам в банках, МФО, ломбардах</li>
+                            <li class="linksmenu">непосильные ежемесячные платежи</li>
+                            <li class="linksmenu">долги по ЖКХ, налогам, штрафы</li>
+                            <li class="linksmenu">на вас свалился долг, как на поручителя</li>
+                            <li class="linksmenu">долги перед физическими лицами</li>
+                            <li class="linksmenu">арестовано имущество</li>
+                            <li class="linksmenu">приставы удерживают деньги с дохода</li>
+                            <li class="linksmenu">платите по кредитам, но долг не уменьшается</li>
+                        </ul>
+                        <img src="women.png"/>
+                    </div>  
+                </div>
+                <div class="debt">
+                    <h2>Как списать долги</h2>
+                    <div class="debt_block">
+                        <div class="blocks">Ваши долги списываются в полном объёме. Любые попытки кредиторов 
+                        в дальнейшем взыскать с вас средства приравниваются к вымогательству.</div>
+                        <div class="blocks">Закон гарантирует сохранение единственного жилья, вне зависимости
+                        от его размеров. Будьте спокойны на этот счёт.</div>
+                        <div class="blocks">С вас снимаются все ограничения - блокировка счетов, выезд за рубеж</div>
+                        <div class="blocks">Прекращаются звонки о взыскании задолженности и исключены любые выезды.
+                        От кредиторов в процедуре участвуют юристы.</div>
+                    </div>
+                </div>
+                <div class="todo">
+                    <h2>Что нужно сделать</h2>
+                    <div class="todogeth"></div>
+                        <div class="image_descr">
+                            <img src="call.png"  class="image" alt="call" />
+                            <div class="descr">Записываетесь на консультацию</div>
+                        </div>
+                        <div class="image_descr">
+                            <img src="search.png" class="image" alt="search" />
+                            <div class="descr">Получаете бесплатный анализ вашей ситуации</div>
+                        </div>
+                        <div class="image_descr">
+                            <img src="doc.png" class="image" alt="doc" />
+                            <div class="descr">Заключаете с нами договор</div>
+                        </div>
+                        <div class="image_descr">
+                            <img src="award.png" class="image" alt="award" />
+                            <div class="descr">Прощаетесьс долгами </div>
+                        </div>
+                    </div>
+                <div class="connect">
+                    <h2>Связаться с нами</h2>
+                    <div class="contogeth">
+                        <div class="contacts">
+                            <div class="adresses">
+                                <div class="street">м. Смоленская, ул. Арбат, 54/2с1</div>
+                                <div class="street">м. Ольховая, с.п. Сосенское, д. Сосенки, ул. Сосновая, 1Б</div>
+                            </div>
+                            <div class="mobile">
+                                <div class="numb">+7(495)215-17-77</div>
+                                <div class="numb">+7(499)110-17-37</div>
+                            </div>
+                            <div class="mail">info@2151777.ru</div> 
+                        </div>
+                        <div class="location">
+                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6211b1e130feac99e6155b0bd0efcb09106fd01194a5e2f77192b2fcab234340&amp;source=constructor" 
+                            width="554" height="487" frameborder="0">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="appointment">
+                    <div class="appcons">
+                        <form>
+                            <h2>Запись на консультацию</h2>
+                            <p><label for="name"></label>Имя</p>
+                            <p><input type="text" name="name" id="name" required></p>
+                            <p><label for="tel"></label>Телефон</p>
+                            <p><input type="tel" name="phone" id="phone" required pattern="\+\d\d{3}\d{3}\d{4}" placeholder="+7XXXXXXXXXX" maxlength="12"></p>
+                            <p>
+                                <button type="submit" class="butt">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="foot">
+                    © Все права защищены. 2019-2020 ОА «ФЮС»
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
