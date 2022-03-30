@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: #ffffff;
     align-items: center;
     
 }
@@ -39,6 +40,12 @@
 
 h1 {
     font-size: 100px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 50px;
+    color: #0F4C81;
 }
 
 .consultation {
@@ -51,10 +58,11 @@ h1 {
 .cons {
     font-size: 60px;
     margin-bottom: 70px;
+    color: #ffffff;
 }
 
 .headfooter {
-    
+    color: #ffffff;
     align-items: flex-end;
 }
 
@@ -99,11 +107,12 @@ h1 {
     color: #fff;
     width: 100%;
     height: 30%;
-    background-color: #556586;
-
+    background-image: url(hands.png);
+    object-fit: none;
 }
 .blocks {
-    background-color: #4262a1;
+    background: rgba(15, 76, 129, 0.5);
+    backdrop-filter: blur(4px);
     padding: 25px 15px;
     margin: 10px;
 }
@@ -152,15 +161,15 @@ h1 {
 .appcons {
     margin: 10%;
     background-color: #D1D1D1;
-    padding: 50px;
+    padding: 5%;
 }
 #name {
-    width: 100%;
+    width: 98%;
     font-size: 220%;
     padding: 5px 10px;
 }
 #phone {
-    width: 100%;
+    width: 98%;
     padding: 5px 10px;
-    font-size: 40px;
+    font-size: 220%;
 }
