@@ -1,11 +1,13 @@
 .app {
     display: flex;
     justify-content: center;
+    
 }
 
 .all {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
+    width: 1440px;
 }
 
 .startblock {
